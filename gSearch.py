@@ -15,4 +15,3 @@ url = queryList[0]
 print(url[0])
 
 webbrowser.register(browser, None, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk")
-
