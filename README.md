@@ -1,2 +1,4 @@
 # Search-automation-in-Python
-works only on windows in Edge, Chrome and Firefox
+Works only on windows in Edge, Chrome and Firefox
+
+Execute the .lnk file, which is a shortcut to the actual .exe file in the dist folder
