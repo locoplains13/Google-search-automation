@@ -6,8 +6,6 @@ from winreg import *
 with OpenKey(HKEY_CURRENT_USER, r"Software\\Microsoft\\Windows\\Shell\\Associations\\UrlAssociations\\http\\UserChoice") as key:
     browser = QueryValueEx(key, 'Progid')[0]
 
-print(browser)
-
 # to search
 
 query = str(input("Enter a search query you want to make: "))
